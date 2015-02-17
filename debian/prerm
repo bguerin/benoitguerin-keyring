@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+case "$1" in
+	remove)
+		aptKeyBinary=$(which apt-key)
+		if ! [ -z "${aptKeyBinary}" ] && [ -x ${aptKeyBinary} ] ; then
+			${aptKeyBinary} del 259F2339
+		fi
+		;;
+esac
+
+exit 0

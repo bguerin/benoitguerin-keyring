@@ -1,0 +1,13 @@
+Source: benoitguerin-keyring
+Section: devel
+Priority: optional
+Maintainer: Benoit GUERIN <benoit.guerin@gmail.com>
+Standards-Version: 3.9.6
+Build-Depends: debhelper
+
+Package: benoitguerin-keyring
+Architecture: all
+Depends: ${misc:Depends}, gnupg
+Description: GnuPG key of the Benoit GUERIN's repository
+ The repository of Benoit Guerin digitally signs its Release files.
+ This package contains the repository key used for that.

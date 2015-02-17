@@ -1,0 +1,1 @@
+0c80faecae15695b0ca982e3878b3d91  keyrings/benoitguerin-keyring.gpg
